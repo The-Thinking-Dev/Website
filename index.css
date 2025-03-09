@@ -1,9 +1,13 @@
-/* Prevent horizontal overflow */
-html, body {
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Prevent horizontal overflow */
+  html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
   
   /* Overall layout */
@@ -61,7 +65,7 @@ html, body {
   
   nav a:hover {
     background-color: #f9f9f9;
-    color: #1c1c1c;
+    color: #006400;
   }
   
   /* Hide the hamburger toggle checkbox completely */
@@ -166,7 +170,11 @@ html, body {
   
   /* Background colors for specific sections */
   .welcome {
-    background-color: #ffffff; /* White background for Welcome */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 10vh; /* Adjust height as needed */
   }
   .latest, .newsletter-signup {
     background-color: #1c1c1c;
@@ -246,8 +254,11 @@ html, body {
     display: flex;
     gap: 20px;
     flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+    align-items: flex-start; /* Aligns children to the top */
   }
-  
+  .contact-columns h2 {
+    margin-top: 0;
+  }  
   .contact-columns > div {
     flex: 1;
     min-width: 280px; /* Optional: to maintain a minimum width for each column */
