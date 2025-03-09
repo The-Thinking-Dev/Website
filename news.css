@@ -1,0 +1,259 @@
+/* News Page Specific CSS */
+
+/* Overall News Section */
+.news {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .news .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Page Title and Intro */
+  .news h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #006400;
+    margin-bottom: 1rem;
+  }
+  
+  .news p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Latest News Items */
+  .news-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-item h2 {
+    font-size: 1.8rem;
+    color: #006400;
+    margin-bottom: 0.75rem;
+  }
+  
+  .news-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .news-item a {
+    display: inline-block;
+    background-color: #006400;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .news-item a:hover {
+    background-color: #004d00;
+    color: #f9f9f9;
+  }
+  
+  /* YouTube Videos Section */
+  .youtube-videos {
+    margin: 3rem 0;
+  }
+  
+  .youtube-videos h2 {
+    font-size: 2rem;
+    color: #006400;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .video-gallery iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* LLM & GPT Reviews Section */
+  .reviews {
+    margin: 3rem 0;
+  }
+  
+  .reviews h2 {
+    font-size: 2rem;
+    color: #006400;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .review {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 0.75rem;
+  }
+  
+  .review p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .review a {
+    display: inline-block;
+    background-color: #006400;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .review a:hover {
+    background-color: #004d00;
+    color: #f9f9f9;
+  }
+  
+  /* Instagram Highlights Section */
+  .instagram {
+    margin: 3rem 0;
+  }
+  
+  .instagram h2 {
+    font-size: 2rem;
+    color: #006400;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .instagram-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .instagram-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Tweets from X Section */
+  .tweets {
+    margin: 3rem 0;
+  }
+  
+  .tweets h2 {
+    font-size: 2rem;
+    color: #006400;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .tweets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .tweet {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tweet p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tweet footer {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Newsletter Samples Section */
+  .newsletter-samples {
+    margin: 3rem 0;
+    text-align: center;
+  }
+  
+  .newsletter-samples h2 {
+    font-size: 2rem;
+    color: #006400;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-samples p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .newsletter-sample {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .newsletter-sample h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 0.75rem;
+  }
+  
+  .newsletter-sample p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-sample a.cta-button {
+    display: inline-block;
+    background-color: #006400;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-sample a.cta-button:hover {
+    background-color: #004d00;
+  }

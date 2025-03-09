@@ -1,0 +1,89 @@
+/* Projects Page Specific CSS */
+
+/* Overall Projects Section */
+.projects {
+    padding: 3rem 1rem;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .projects .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Page Heading and Intro Text */
+  .projects h1 {
+    font-size: 2.8rem;
+    color: #006400;
+    margin-bottom: 1rem;
+  }
+  
+  .projects p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Grid Layout for Project Snippets */
+  .project-snippets {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .project-snippets {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .project-snippets {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Styling Each Project Snippet Card */
+  .project-snippet {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .project-snippet img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-snippet h2 {
+    font-size: 1.5rem;
+    color: #006400;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-snippet p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Project Card Call-to-Action Link */
+  .project-snippet a {
+    display: inline-block;
+    background-color: #006400;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-snippet a:hover {
+    background-color: #004d00;
+  }
