@@ -1,0 +1,117 @@
+/* Blog Post CSS Template */
+
+/* General Blog Post Page Styles */
+.blog-post-page {
+    padding: 2rem 1rem;
+    background: #f9f9f9;
+  }
+  
+  .blog-post-page .blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headers */
+  .blog-post-page h1 {
+    font-size: 3rem;             
+    font-weight: bold;           
+    color: #006400;                 
+    text-align: center;
+    padding: 1rem;               
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background behind the text */
+    /*border-radius: 50px;          
+    border: 2px solid #006400;    /* Outline the header container with #006400 */
+    /*-webkit-text-stroke: 1px #006400; /* Outline the text with #006400 */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); */
+  }
+  .blog-post-page header{
+    background-color: #ffffff;
+    border: 2px solid #006400;
+  }
+  
+  .blog-post-page h2 {
+    font-size: 2rem;
+    color: #006400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-post-page h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraphs and Text */
+  .blog-post-page p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Section Styling */
+  .blog-post-page section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Horizontal Rule */
+  .blog-post-page hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+  }
+  
+  /* Links */
+  .blog-post-page a {
+    color: #006400;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .blog-post-page a:hover {
+    color: #004d00;
+  }
+  
+  /* Call to Action Section */
+.call-to-action {
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  /* CTA Button: Pill Shape and Consistent with the Nav Bar */
+  .cta-button {
+    display: inline-block;
+    background-color: #006400;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #004d00; /* Slightly darker shade on hover */
+  }
+
+  /* Code Blocks (if needed) */
+  .blog-post-page pre,
+  .blog-post-page code {
+    font-family: monospace;
+    background: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 3px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .blog-post-page {
+      padding: 1rem;
+    }
+  }

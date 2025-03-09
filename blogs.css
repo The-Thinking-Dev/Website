@@ -1,0 +1,72 @@
+/* Blogs Page Specific CSS */
+
+/* General Blogs Section Styling */
+.blogs {
+    padding: 3rem 1rem;
+    background: #f9f9f9;
+  }
+  
+  .blogs .inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Blogs Heading */
+  .blogs h1 {
+    text-align: center;
+    color: #006400;
+    margin-bottom: 2rem;
+  }
+  
+  /* Blog Posts Listing */
+  .blog-posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .blog-posts {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Each Blog Post Card */
+  .blog-post {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-post p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Read More Button Styling - Matching Nav Buttons */
+  .blog-post a {
+    display: inline-block;
+    background-color: #006400;
+    color: #f9f9f9;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  .blog-post a:hover {
+    background-color: #f9f9f9;
+    color: #006400;
+    border: 1px solid #006400;
+  }
+
+  
