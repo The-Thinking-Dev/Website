@@ -4,89 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Thinking Dev - Under Maintenance</title>
-  <style>
-    /* Basic reset and typography */
-    body {
-      margin: 0;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      background-color: #ffffff; /* White background */
-      color: #333; /* Dark text for readability */
-      line-height: 1.6;
-    }
-    header {
-      background-color: #1c1c1c;
-      padding: 20px;
-      text-align: center;
-      color: #fff;
-    }
-    .logo {
-      font-size: 2em;
-      font-weight: bold;
-    }
-    .logo span {
-      font-style: italic;
-    }
-    nav {
-      background-color: #1f1f1f;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: #00ff00; /* Matrix green for a futuristic touch */
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: 600;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      max-width: 960px;
-      margin: 30px auto;
-      padding: 20px;
-      background-color: #ffffff; /* White container to match overall theme */
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      color: #333;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    h2 {
-      color: #00ff00;
-      margin-bottom: 10px;
-    }
-    form input, form textarea, form button {
-      width: 100%;
-      padding: 10px;
-      margin: 5px 0;
-      border: none;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
-    form input, form textarea {
-      background-color: #f9f9f9;
-      color: #333;
-      border: 1px solid #ccc;
-    }
-    form button {
-      background-color: #00ff00;
-      color: #000;
-      cursor: pointer;
-      font-weight: bold;
-      border: none;
-    }
-    footer {
-      background-color: #1c1c1c;
-      text-align: center;
-      padding: 20px;
-      margin-top: 30px;
-      color: #fff;
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
@@ -94,49 +12,114 @@
       The Thinking Dev <span>&lt;/&gt;</span>
     </div>
   </header>
-  
+
   <nav>
-    <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">Blogs</a>
-    <a href="#">News</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <!-- Hidden checkbox for hamburger toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <!-- Full-bleed wrapper for the hamburger (visible on small screens) -->
+    <div class="nav-hamburger-wrapper">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    <div class="nav-inner">
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Blogs</a>
+      <a href="#">News</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
   </nav>
-  
+
+<!-- The Mind with AI Section -->
+  <section class="mind-with-ai">
+    <div class="overlay">
+      <h1>The Mind With A.I.</h1>
+    </div>
+  </section>
+
   <div class="container">
+    <!-- Welcome Section with full-bleed white background -->
     <section class="welcome">
-      <h2>Welcome</h2>
-      <p>Hello, creative soul! We’re currently polishing up our digital space. Please bear with us as we prepare to launch an exciting new chapter.</p>
+      <div class="inner">
+        <h2>Welcome</h2>
+        <p>Welcome to The Thinking Dev. Dive right in as we explore the matrix.</p>
+      </div>
     </section>
-    
+
+    <!-- Latest Section with full-bleed background -->
     <section class="latest">
-      <h2>Latest</h2>
-      <p>Stay tuned for snippets of the latest news, our uplifting quote of the week, inspiring blogs, and brilliant projects. A bright future is in the works!</p>
+      <div class="inner">
+        <h2>Latest</h2>
+        <p>Stay tuned for snippets of the latest news, our uplifting quote of the week, inspiring blogs, and brilliant projects. A bright future is in the works!</p>
+      </div>
     </section>
-    
+
+    <!-- Blogs and Projects Section with full-bleed background -->
+    <section class="blogs-projects">
+      <div class="inner">
+        <h2>Blogs and Projects</h2>
+        <div class="columns">
+          <div class="projects-column">
+            <h3>Projects</h3>
+            <p>Check out our latest projects that are shaping the future of development. <a href="#">Read More</a></p>
+          </div>
+          <div class="blogs-column">
+            <h3>Blogs</h3>
+            <p>Explore our insightful blogs filled with tips, stories, and tech wisdom. <a href="#">Read More</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Sign Up Section with full-bleed background -->
     <section class="newsletter-signup">
-      <h2>Newsletter Sign Up</h2>
-      <form action="#" method="post">
-        <input type="email" name="newsletter_email" placeholder="Enter your email to subscribe" required>
-        <button type="submit">Subscribe</button>
-      </form>
+      <div class="inner">
+        <h2>Newsletter Sign Up</h2>
+        <form action="#" method="post">
+          <input type="email" name="newsletter_email" placeholder="Enter your email to subscribe" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
     </section>
-    
-    <section class="contact-form">
-      <h2>Contact Us</h2>
-      <form action="#" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+
+    <!-- Contact Form Section (centered within container) -->
+    <section class="contact-us">
+        <div class="inner">
+          <div class="contact-columns">
+            <div class="contact-form">
+              <!-- Your contact form elements go here -->
+              <section class="contact-form">
+                <div class="inner">
+                  <h2>Contact Us</h2>
+                  <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                  </form>
+                </div>
+              </section>
+            </div>
+            <div class="social-media">
+              <h2>Social Media</h2>
+              <ul>
+                <li><a href="https://youtube.com/@thethinkingdev">Youtube</a></li>
+                <li><a href="https://x.com/thethinkingdev">X</a></li>
+                <li><a href="https://instagram.com/thethinkingdev">Instagram</a></li>
+                <!-- Add more links as needed -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
   </div>
-  
+
   <footer>
     <p>Connect with us and sign up for updates. The Thinking Dev is preparing to inspire and innovate!</p>
-    <!-- Social media and additional sign-up links can be added here -->
     <p>&copy; 2025 The Thinking Dev</p>
   </footer>
 </body>
