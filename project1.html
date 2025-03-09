@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IMDB Rating Predictor - The Thinking Dev</title>
+  <!-- Shared site styles for navigation and overall layout -->
+  <link rel="stylesheet" href="index.css">
+  <!-- Project-specific styles -->
+  <link rel="stylesheet" href="all-projects.css">
+</head>
+<body id="top">
+  <!-- Navigation (consistent across your site) -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="blogs.html">Blog</a>
+      <a href="news.html">News</a>
+      <a href="about.html">About</a>
+      <a href="index.html#contact-us">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Project Content -->
+  <main class="project-page">
+    <article class="project">
+      <header>
+        <h1>IMDB Rating Predictor</h1>
+      </header>
+
+      <!-- Overview Section -->
+      <section class="overview">
+        <h2>Overview</h2>
+        <p>
+          The IMDB Rating Predictor uses a dataset of the top 100 films from IMDB. Users start by rating at least 5 films using a 5‑star system. Based on these initial ratings, the program learns your preferences and then predicts the ratings for the remaining films. As you continue to rate more films, the model refines its predictions, offering a personalized forecast for every movie.
+        </p>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features">
+        <h2>Features</h2>
+        <ul>
+          <li>Utilizes a curated dataset of the top 100 films from IMDB.</li>
+          <li>Requires users to rate a minimum of 5 films (ratings out of 5 stars).</li>
+          <li>Employs machine learning to predict ratings for films not yet rated.</li>
+          <li>Improves prediction accuracy as additional ratings are provided.</li>
+          <li>Interactive and adaptive model for personalized movie recommendations.</li>
+        </ul>
+      </section>
+
+      <!-- Implementation Section -->
+      <section class="implementation">
+        <h2>Implementation</h2>
+        <p>
+          Built with Python, this project leverages libraries such as <strong>Pandas</strong> for data handling and <strong>scikit-learn</strong> for building and training the prediction model. The workflow is as follows:
+        </p>
+        <ol>
+          <li>The user rates at least 5 films from the top 100 list.</li>
+          <li>These ratings are used as input features to train a regression model.</li>
+          <li>The model then predicts the ratings for the rest of the films in the dataset.</li>
+          <li>As more ratings are provided, the model continually retrains for improved accuracy.</li>
+        </ol>
+        <p>
+          The project not only demonstrates the practical application of machine learning in personalized recommendations but also serves as a robust example of interactive data-driven web applications.
+        </p>
+      </section>
+
+      <!-- Demo & Code Section -->
+      <section class="demo">
+        <h2>Demo & Code</h2>
+        <p>
+          View the project code on <a href="https://github.com/The-Thinking-Dev/imdb-rating-predictor" target="_blank">GitHub</a> and try out a live demo <a href="https://thethinkingdev.github.io/imdb-rating-predictor" target="_blank">here</a>.
+        </p>
+      </section>
+
+      <!-- Conclusion Section -->
+      <section class="conclusion">
+        <h2>Conclusion</h2>
+        <p>
+          The IMDB Rating Predictor is a unique blend of user interaction and machine learning, designed to provide personalized movie ratings. It’s a dynamic tool that evolves as more data is provided, showcasing the power of adaptive models in delivering tailor-made insights.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; 2025 The Thinking Dev. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

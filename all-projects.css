@@ -1,0 +1,88 @@
+/* Project Page Template CSS for All Projects */
+
+/* Overall Project Page Container */
+.project-page {
+    padding: 3rem 1rem;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Main Project Card */
+  .project {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  .project header h1 {
+    font-size: 2.8rem;
+    color: #006400;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  /* Section Layout */
+  .project section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Section Headings */
+  .project section h2 {
+    font-size: 1.8rem;
+    color: #006400;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraphs, Lists, and Content */
+  .project section p,
+  .project section li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .project section ul {
+    list-style: disc inside;
+    margin-left: 1rem;
+  }
+  
+  .project section ol {
+    list-style: decimal inside;
+    margin-left: 1rem;
+  }
+  
+  /* Link Styling (for Demo & Code, etc.) */
+  .project a {
+    color: #006400;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .project a:hover {
+    border-bottom: 2px solid #006400;
+  }
+  
+  /* Call-to-Action Button (Pill Shape) */
+  .cta-button {
+    display: inline-block;
+    background-color: #006400;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #004d00;
+  }

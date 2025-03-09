@@ -196,6 +196,22 @@
     flex: 1;
   }
   
+  .pill-button {
+    display: inline-block;
+    background-color: #006400; /* Dark green */
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;       /* Pill shape */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pill-button:hover {
+    background-color: #f9f9f9; /* Slightly darker on hover */
+    color: #004d00;
+  }
+
   /* Newsletter form overrides */
   .newsletter-signup form input,
   .newsletter-signup form textarea {
