@@ -196,13 +196,19 @@ html, body {
     border: 1px solid #666;
   }
   .newsletter-signup form button {
-    background-color: #00ff00;
-    color: #000;
+    background-color: #006400;
+    color: #f9f9f9;
     border: none;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
   }
   
+  .newsletter-signup form button:hover {
+    background-color: #f9f9f9;
+    color: #006400;
+  }
+
   /* Default form elements */
   form input, form textarea, form button {
     width: 100%;
@@ -218,11 +224,17 @@ html, body {
     border: 1px solid #ccc;
   }
   form button {
-    background-color: #00ff00;
-    color: #000;
+    background-color: #006400;
+    color: #f9f9f9;
     cursor: pointer;
     font-weight: bold;
     border: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+  form button:hover {
+    background-color: #ffffff;
+    color: #006400;
   }
   .contact-form h2 {
     color: #1c1c1c;
