@@ -10,8 +10,24 @@
   <link rel="stylesheet" href="news.css">
 </head>
 <body id="top">
-  <!-- Navigation (consistent with the main page) -->
+  <header>
+    <div class="logo">
+      The Thinking Dev <span>&lt;/&gt;</span>
+    </div>
+  </header>
+
   <nav>
+    <!-- Hidden checkbox for hamburger toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <!-- Full-bleed wrapper for the hamburger (visible on small screens) -->
+    <div class="nav-hamburger-wrapper">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+  <!-- Navigation (consistent with the main page) -->
     <div class="nav-inner">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>

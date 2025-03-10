@@ -9,9 +9,25 @@
   <!-- Projects page specific styles -->
   <link rel="stylesheet" href="projects.css">
 </head>
-<body id="top">
-  <!-- Navigation (consistent across your site) -->
+<body>
+  <header>
+    <div id="top" class="logo">
+      The Thinking Dev <span>&lt;/&gt;</span>
+    </div>
+  </header>
+
   <nav>
+    <!-- Hidden checkbox for hamburger toggle -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <!-- Full-bleed wrapper for the hamburger (visible on small screens) -->
+    <div class="nav-hamburger-wrapper">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+  <!-- Navigation (consistent across your site) -->
     <div class="nav-inner">
       <a href="index.html">Home</a>
       <a href="projects.html" class="active">Projects</a>
